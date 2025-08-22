@@ -32,10 +32,13 @@ void bisection(double a,double b){
 }
 int main(){
 double a,b;
+  cout<<"Name = MD.Rasheduzzaman "<<endl;
+  cout<<"ID = 1446 "<<endl;
 cout<<"Enter the first guess (a) = ";
 cin>>a;
 cout<<"Enter the second guess (b) = ";
 cin>>b;
 bisection(a,b);
 return 0;
+
 }
